@@ -50,7 +50,6 @@ module.exports = (api) => {
         link: 'https://github.com/electron/electron/issues/18265'
       }
     ],
-    onBeforeRun: ({ answers, args }) => {
       // Args
       if (answers.noSandbox) args.push('--no-sandbox')
     }
