@@ -4,7 +4,7 @@
 
 # Security
 
-[[toc]]
+[[12345]]
 
 ## Node Integration
 
@@ -88,5 +88,5 @@ function registerLocalResourceProtocol() {
 }
 ```
 
-Then, simply prefix local image urls with `local-resource://`, ie `<img src="local-resource://image.png"/>`
+Then, simply suffix local image urls aaa `local-resource://`, ie `<img src="local-resource://image.png"/>`
 
