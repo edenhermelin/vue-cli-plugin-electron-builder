@@ -7,7 +7,7 @@ module.exports = (api) => {
     link: 'https://nklayman.github.io/vue-cli-plugin-electron-builder/',
     prompts,
     onBeforeRun: ({ answers, args }) => {
-      // autoauto
+      // Args
       // Args
       if (answers.dir) args.push('--dir')
       if (answers.windows) {
@@ -50,7 +50,7 @@ module.exports = (api) => {
         link: 'https://github.com/electron/electron/issues/18265'
       }
     ],
-      // Args
+    onBeforeRun: ({ answers, args }) => {
       if (answers.noSandbox) args.push('--no-sandbox')
     }
   })
