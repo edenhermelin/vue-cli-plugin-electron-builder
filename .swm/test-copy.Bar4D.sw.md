@@ -71,7 +71,15 @@ file_blobs:
 
 <br/>
 
-[test](test.hEaFu.sw.md) is a link
+[test](test.hEaFu.sw.md) is a link `📄 __mocks__/webpack.js` is a path
+
+<br/>
+
+just a text here
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2FZ2l0aHViJTNBJTNBdnVlLWNsaS1wbHVnaW4tZWxlY3Ryb24tYnVpbGRlciUzQSUzQWVkZW5oZXJtZWxpbg%3D%3D%2F83d38a87-02e4-4a90-8aec-8c7aca11b33f.png?alt=media&token=2f862372-9952-4993-a117-82068efc7d6e" style="width:'50%'"/></div>
 
 <br/>
 
