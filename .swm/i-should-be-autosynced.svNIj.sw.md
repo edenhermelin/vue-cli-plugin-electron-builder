@@ -1,0 +1,140 @@
+---
+id: svNIj
+name: I should be autosynced
+file_version: 1.0.2
+app_version: 0.6.2-0
+file_blobs:
+  docs/guide/guide.md: 788a5d63a5dc1b2b7b74c707a75b09b111c68e79
+  docs/guide/commonIssues.md: 54def234796f713e71ed22394dcc14f11f0944bf
+  docs/guide/configuration.md: 280190bcebdd9882f4b44347af0b109a0697976f
+  docs/guide/README.md: e1d6ae6f53c09684d6608b082deb0bfa465764e5
+---
+
+this is me testing autosync
+
+<br/>
+
+1.  the file `📄 docs/guide/guide.md` will be renamed
+    
+2.  `VCP`[<sup id="ZYgGVp">↓</sup>](#f-ZYgGVp) is a token that will be changed into something else
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 docs/guide/guide.md
+```markdown
+⬜ 14     
+⬜ 15     ```javascript
+⬜ 16     // vue.config.js
+🟩 17     module.exports = {
+🟩 18       pluginOptions: {
+🟩 19         electronBuilder: {
+🟩 20           // List native deps here if they don't work
+🟩 21           externals: ['my-native-dep'],
+🟩 22           // If you are using Yarn Workspaces, you may have multiple node_modules folders
+🟩 23           // List them all here so that VCP Electron Builder can find them
+🟩 24           nodeModulesPath: ['../../node_modules', './node_modules']
+🟩 25         }
+🟩 26       }
+⬜ 27     }
+⬜ 28     ```
+⬜ 29     
+```
+
+<br/>
+
+this file will be deleted, so everything including `Exceptions`[<sup id="19nbJ7">↓</sup>](#f-19nbJ7) should be outdated
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 docs/guide/commonIssues.md
+```markdown
+⬜ 42     
+⬜ 43     ## Exceptions in `async` functions not getting logged to console
+⬜ 44     
+🟩 45     This bug can be fixed by adding the following code to the entrypoint of your Vue App `src/main.js`:
+🟩 46     
+🟩 47     ```javascript
+🟩 48     process.on('unhandledRejection', (error) => {
+🟩 49       console.error(error)
+🟩 50     })
+🟩 51     ```
+⬜ 52     
+⬜ 53     See [#118](https://github.com/nklayman/vue-cli-plugin-electron-builder/issues/118) for more details. Thanks to [dspangenberg](https://github.com/dspangenberg) for the fix.
+⬜ 54     
+```
+
+<br/>
+
+`vue.config.js`[<sup id="Z1YP0qX">↓</sup>](#f-Z1YP0qX) should be an autosynced token
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 docs/guide/configuration.md
+```markdown
+⬜ 41     ```javascript
+⬜ 42     // vue.config.js
+⬜ 43     
+🟩 44     module.exports = {
+🟩 45       configureWebpack: {
+🟩 46         // Webpack configuration applied to web builds and the electron renderer process
+🟩 47       },
+🟩 48       pluginOptions: {
+🟩 49         electronBuilder: {
+🟩 50           chainWebpackMainProcess: (config) => {
+🟩 51             // Chain webpack config for electron main process only
+🟩 52           },
+🟩 53           chainWebpackRendererProcess: (config) => {
+🟩 54             // Chain webpack config for electron renderer process only (won't be applied to web builds)
+🟩 55           },
+🟩 56           // Use this to change the entrypoint of your app's main process
+🟩 57           mainProcessFile: 'src/myBackgroundFile.js',
+🟩 58           // Use this to change the entry point of your app's render process. default src/[main|index].[js|ts]
+🟩 59           rendererProcessFile: 'src/myMainRenderFile.js',
+🟩 60           // Provide an array of files that, when changed, will recompile the main process and restart Electron
+🟩 61           // Your main process file will be added by default
+🟩 62           mainProcessWatch: ['src/myFile1', 'src/myFile2'],
+🟩 63           // Provide a list of arguments that Electron will be launched with during "electron:serve",
+🟩 64           // which can be accessed from the main process (src/background.js).
+🟩 65           // Note that it is ignored when --debug flag is used with "electron:serve", as you must launch Electron yourself
+🟩 66           // Command line args (excluding --debug, --dashboard, and --headless) are passed to Electron as well
+🟩 67           mainProcessArgs: ['--arg-name', 'arg-value']
+🟩 68         }
+🟩 69       }
+🟩 70     }
+⬜ 71     ```
+⬜ 72     
+⬜ 73     ## Changing the Output Directory
+```
+
+<br/>
+
+this snippet will be autosynced because it will be renamed
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 docs/guide/README.md
+```markdown
+🟩 1      ---
+🟩 2      title: Quick Start
+🟩 3      sidebarDepth: 2
+🟩 4      ---
+⬜ 5      
+⬜ 6      :::warning
+⬜ 7      These are the docs for the v2.x.x release line, which is recommended over the v1.x version. The old docs are available [here](https://github.com/nklayman/vue-cli-plugin-electron-builder/tree/v1/docs). To upgrade, see the [release announcement](https://github.com/nklayman/vue-cli-plugin-electron-builder/releases/tag/v2.0.0).
+```
+
+<br/>
+
+<!-- THIS IS AN AUTOGENERATED SECTION. DO NOT EDIT THIS SECTION DIRECTLY -->
+### Swimm Note
+
+<span id="f-19nbJ7">Exceptions</span>[^](#19nbJ7) - "docs/guide/commonIssues.md" L43
+```markdown
+## Exceptions in `async` functions not getting logged to console
+```
+
+<span id="f-ZYgGVp">VCP</span>[^](#ZYgGVp) - "docs/guide/guide.md" L23
+```markdown
+      // List them all here so that VCP Electron Builder can find them
+```
+
+<span id="f-Z1YP0qX">vue.config.js</span>[^](#Z1YP0qX) - "docs/guide/configuration.md" L42
+```markdown
+// vue.config.js
+```
+
+<br/>
+
+This file was generated by Swimm. [Click here to view it in the app](http://localhost:5000/#/repos/Z2l0aHViJTNBJTNBdnVlLWNsaS1wbHVnaW4tZWxlY3Ryb24tYnVpbGRlciUzQSUzQWVkZW5oZXJtZWxpbg==/docs/svNIj).
