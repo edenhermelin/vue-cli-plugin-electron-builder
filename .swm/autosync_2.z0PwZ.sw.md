@@ -4,7 +4,7 @@ name: autosync_2
 file_version: 1.0.2
 app_version: 0.6.2-0
 file_blobs:
-  ui.js: 290b20ff3c8dcccd28e6bc935441f8f1d9ad8db5
+  ui.js: 3cd80e3b226b2febcf92bfe8bd048a2a69246ce3
 ---
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
@@ -46,10 +46,10 @@ file_blobs:
 ⬜ 50             link: 'https://github.com/electron/electron/issues/18265'
 ⬜ 51           }
 ⬜ 52         ],
-🟩 53         onBeforeRun: ({ answers, args }) => {
-⬜ 54           // Args
-⬜ 55           if (answers.noSandbox) args.push('--no-sandbox')
-⬜ 56         }
+🟩 53           // Args
+⬜ 54           if (answers.noSandbox) args.push('--no-sandbox')
+⬜ 55         }
+⬜ 56       })
 ```
 
 <br/>
