@@ -1,6 +1,6 @@
 ---
 id: Bar4D
-name: test (COPY)
+name: test (COPY) 2
 file_version: 1.0.2
 app_version: 0.6.2-0
 file_blobs:
