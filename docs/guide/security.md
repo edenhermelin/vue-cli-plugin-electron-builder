@@ -1,3 +1,7 @@
+
+
+
+
 # Security
 
 [[toc]]
@@ -85,3 +89,4 @@ function registerLocalResourceProtocol() {
 ```
 
 Then, simply prefix local image urls with `local-resource://`, ie `<img src="local-resource://image.png"/>`
+
