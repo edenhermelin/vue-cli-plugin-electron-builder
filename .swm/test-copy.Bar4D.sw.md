@@ -28,10 +28,6 @@ file_blobs:
 
 <br/>
 
-[test](test.hEaFu.sw.md) is a link `📄 __mocks__/webpack.js` is a path
-
-<br/>
-
 just a text here
 
 <br/>
