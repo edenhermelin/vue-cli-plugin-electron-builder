@@ -4,7 +4,7 @@ name: autosync_2
 file_version: 1.0.2
 app_version: 0.6.2-0
 file_blobs:
-  ui.js: 3cd80e3b226b2febcf92bfe8bd048a2a69246ce3
+  ui.js: 46c02ffa56b473507733c810a324556178ff89ac
 ---
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
@@ -19,23 +19,21 @@ file_blobs:
 🟩 7          link: 'https://nklayman.github.io/vue-cli-plugin-electron-builder/',
 🟩 8          prompts,
 🟩 9          onBeforeRun: ({ answers, args }) => {
-🟩 10           // autoauto
-🟩 11           // Args
-🟩 12           if (answers.dir) args.push('--dir')
-🟩 13           if (answers.windows) {
-🟩 14             args.push('--windows')
-🟩 15             // For each windows target, add it after --windows
-🟩 16             answers.windowsTargets.forEach((t) => {
-🟩 17               args.push(t)
-🟩 18             })
-🟩 19           }
-🟩 20           if (answers.linux) {
-🟩 21             args.push('--linux')
-🟩 22             // For each linux target, add it after --linux
-🟩 23             answers.linuxTargets.forEach((t) => {
-⬜ 24               args.push(t)
-⬜ 25             })
-⬜ 26           }
+🟩 10           if (answers.dir) args.push('--dir')
+🟩 11           if (answers.windows) {
+🟩 12             args.push('--windows')
+🟩 13             // For each windows target, add it after --windows
+🟩 14             answers.windowsTargets.forEach((t) => {
+🟩 15               args.push(t)
+🟩 16             })
+🟩 17           }
+🟩 18           if (answers.linux) {
+🟩 19             args.push('--linux')
+🟩 20             // For each linux target, add it after --linux
+🟩 21             answers.linuxTargets.forEach((t) => {
+⬜ 22               args.push(t)
+⬜ 23             })
+⬜ 24           }
 ```
 
 <br/>
@@ -43,13 +41,15 @@ file_blobs:
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 ui.js
 ```javascript
-⬜ 50             link: 'https://github.com/electron/electron/issues/18265'
-⬜ 51           }
-⬜ 52         ],
-🟩 53           // Args
-⬜ 54           if (answers.noSandbox) args.push('--no-sandbox')
-⬜ 55         }
-⬜ 56       })
+⬜ 45             type: 'confirm',
+⬜ 46             default: false,
+⬜ 47             description: 'Disable sandbox (--no-sandbox)',
+🟩 48             link: 'https://github.com/electron/electron/issues/18265'
+🟩 49           }
+🟩 50         ],
+⬜ 51         onBeforeRun: ({ answers, args }) => {
+⬜ 52           if (answers.noSandbox) args.push('--no-sandbox')
+⬜ 53         }
 ```
 
 <br/>
