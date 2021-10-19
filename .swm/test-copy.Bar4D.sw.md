@@ -4,9 +4,40 @@ name: test (COPY)
 file_version: 1.0.2
 app_version: 0.6.2-0
 file_blobs:
-  index.js: 502fe867e6a469d71ca57a472b77ed94f164189e
   .eslintrc.js: 083f18aa7fcf484521321ec6b8b7ad8d9bf6f385
+  index.js: 502fe867e6a469d71ca57a472b77ed94f164189e
 ---
+
+`module.exports`[<sup id="1h7zPE">↓</sup>](#f-1h7zPE) asdasd
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 .eslintrc.js
+```javascript
+🟩 1      module.exports = {
+🟩 2        extends: 'standard',
+🟩 3        ignorePatterns: [
+🟩 4          '__tests__/projects/*',
+🟩 5          'generator/templates/base/src/background.js'
+🟩 6        ],
+🟩 7        env: {
+🟩 8          jest: true
+🟩 9        }
+🟩 10     }
+🟩 11     
+```
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2FZ2l0aHViJTNBJTNBdnVlLWNsaS1wbHVnaW4tZWxlY3Ryb24tYnVpbGRlciUzQSUzQWVkZW5oZXJtZWxpbg%3D%3D%2F83d38a87-02e4-4a90-8aec-8c7aca11b33f.png?alt=media&token=2f862372-9952-4993-a117-82068efc7d6e" style="width:'50%'"/></div>
+
+<br/>
+
+[test](test.hEaFu.sw.md) is a link `📄 __mocks__/webpack.js` is a path
+
+<br/>
+
+just a text here
+
+<br/>
 
 `pluginOptions`[<sup id="ZYHI1P">↓</sup>](#f-ZYHI1P) are options
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
@@ -49,37 +80,6 @@ file_blobs:
 ⬜ 53       // Apply custom webpack config
 ⬜ 54       api.chainWebpack(async (config) => {
 ```
-
-<br/>
-
-`module.exports`[<sup id="1h7zPE">↓</sup>](#f-1h7zPE) asdasd
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 .eslintrc.js
-```javascript
-🟩 1      module.exports = {
-🟩 2        extends: 'standard',
-🟩 3        ignorePatterns: [
-🟩 4          '__tests__/projects/*',
-🟩 5          'generator/templates/base/src/background.js'
-🟩 6        ],
-🟩 7        env: {
-🟩 8          jest: true
-🟩 9        }
-🟩 10     }
-🟩 11     
-```
-
-<br/>
-
-[test](test.hEaFu.sw.md) is a link `📄 __mocks__/webpack.js` is a path
-
-<br/>
-
-just a text here
-
-<br/>
-
-<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2FZ2l0aHViJTNBJTNBdnVlLWNsaS1wbHVnaW4tZWxlY3Ryb24tYnVpbGRlciUzQSUzQWVkZW5oZXJtZWxpbg%3D%3D%2F83d38a87-02e4-4a90-8aec-8c7aca11b33f.png?alt=media&token=2f862372-9952-4993-a117-82068efc7d6e" style="width:'50%'"/></div>
 
 <br/>
 
