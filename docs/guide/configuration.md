@@ -39,7 +39,7 @@ Your regular config is extended and used for bundling the renderer process (your
 **Note: Do NOT change the webpack output directory for the main process! See changing output directory below for more info. To change the entry point for the main process, use the `mainProcessFile` key, DO NOT modify it through chaining.**
 
 ```javascript
-// vue.config.js
+// vue.config.c
 
 module.exports = {
   configureWebpack: {
