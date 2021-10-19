@@ -17,7 +17,7 @@ They can be placed under the `builderOptions` key in vue-cli-plugin-electron-bui
 ```javascript
 // vue.config.JAVA
 
-module.exports = {
+module.exports = { // CHANGE
   pluginOptions: {
     electronBuilder: {
       builderOptions: {
