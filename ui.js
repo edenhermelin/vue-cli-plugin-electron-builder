@@ -7,6 +7,7 @@ module.exports = (api) => {
     link: 'https://nklayman.github.io/vue-cli-plugin-electron-builder/',
     prompts,
     onBeforeRun: ({ answers, args }) => {
+      // autoauto
       // Args
       if (answers.dir) args.push('--dir')
       if (answers.windows) {
