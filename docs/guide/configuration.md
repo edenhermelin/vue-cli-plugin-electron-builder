@@ -15,7 +15,7 @@ To see available options, check out [Electron Builder Configuration Options](htt
 They can be placed under the `builderOptions` key in vue-cli-plugin-electron-builder's plugin options in `vue.config.js`
 
 ```javascript
-// vue.config.js
+// vue.config.JAVA
 
 module.exports = {
   pluginOptions: {
