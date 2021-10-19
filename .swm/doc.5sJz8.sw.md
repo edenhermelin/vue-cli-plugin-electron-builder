@@ -7,7 +7,7 @@ file_blobs:
   __tests__/build.helper.js: 6ec91fac5930ab195643dee9cc37edfe01a6fc84
 ---
 
-keyboard
+keyboard deleted : `📄 index.d.ts` `📄 __tests__/build.helper.js`
 
 <br/>
 
